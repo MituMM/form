@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("coffee.jpg");
+  background-size: cover;
+
+}
+.container{
+
+}
+.signin{
+width: 50%;
+height: 400px;
+margin: 0 auto;
+background: #fff;
+border: 2px solid #ddd;
+box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+.signin .left{
+float: left;
+width: 50%;
+height: 400px;
+background: url("img/cup.jpg");
+background-size: cover;
+box-sizing: border-box;
+background-position-x: 50%;
+}
+
+.signin .right{
+  float: left;
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+}
+.formbox {
+	width: 100%;
+	padding: 80px 40px;
+
+}
+.formbox p {
+	font-weight: bold;
+}
+.formbox input{
+  width: 100%;
+margin-bottom: 10px;
+}
+.formbox input[type="text"] {
+	width: 70%;
+	border: none;
+	border-bottom: 3px #651515 dotted;
+
+}
+.formbox input[type="text"]:focus {
+	border-bottom: 3px #651515 solid;
+
+}
+.formbox input[type="submit"] {
+	width: 70%;
+	border: none;
+	background: #60250e;
+	color: #ddd;
+	padding: 10px;
+  cursor: pointer;
+  margin-top:20px;
+}
+.formbox input[type="submit"]:hover {
+
+	background: #333;
+	color: #fff;
+
+}
